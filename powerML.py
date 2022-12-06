@@ -519,7 +519,7 @@ else:
             # Plotting the data
             plt.plot(label[start:end], label='Actual')
             plt.plot(y_pred[start:end], label='Predicted')
-            plt.xlabel('Number of Observaions')
+            plt.xlabel('Number of Observations')
             plt.ylabel(f'Power Consumption in {label_select}')
             plt.legend()
 
@@ -734,7 +734,7 @@ else:
             plt.plot(np.arange(T_start,tr_w), train_label[T_start:tr_w+1], label='train')
             plt.plot(np.arange(tr_w, tr_w+Mark), test_label[:Mark], label='test')
             plt.plot(np.arange(tr_w, tr_w+Mark), y_forcast[:Mark], label='predict') 
-            plt.xlabel('Number of Observaions')
+            plt.xlabel('Number of Observations')
             plt.ylabel(f'Power Consumption in {label_LP}')
             plt.legend()
 
