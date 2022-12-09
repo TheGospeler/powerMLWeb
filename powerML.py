@@ -211,7 +211,7 @@ def forcast_data(data, feat_num, forcast_size, regr):
 st.sidebar.write("""
     ### The Functionality of this App is divided into two sections""")
 
-main_opt = st.sidebar.radio('Targeted Action: ', ["Run Machine Learning Algorithms", "Data Visualization"])
+main_opt = st.sidebar.radio('Targeted Action: ', ["Run Machine Learning Algorithms", "Data Description and Visualization"])
 
 # Courtesy: Write Something Fancy about yourself
 
