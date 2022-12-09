@@ -216,7 +216,7 @@ main_opt = st.sidebar.radio('Targeted Action: ', ["Run Machine Learning Algorith
 # Courtesy: Write Something Fancy about yourself
 
 
-if(main_opt == "Data Visualization"):
+if(main_opt == "Data Description and Visualization"):
 
     # The title of the web page
     st.write("""
